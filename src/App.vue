@@ -2,7 +2,7 @@
  * @Author: lgq
  * @Date: 2023-03-31 17:11:54
  * @LastEditors: lgq
- * @LastEditTime: 2023-03-31 18:15:38
+ * @LastEditTime: 2023-05-06 14:32:35
  * @Description: file content
  * @FilePath: \PercentAdmind:\Project\me\few-code-view\src\App.vue
 -->
@@ -11,14 +11,14 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <div>
+  <!-- <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
-  </div>
+  </div> -->
   <HelloWorld msg="Vite + Vue" />
 </template>
 
