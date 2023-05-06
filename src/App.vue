@@ -1,5 +1,13 @@
+<!--
+ * @Author: lgq
+ * @Date: 2023-03-31 17:11:54
+ * @LastEditors: lgq
+ * @LastEditTime: 2023-03-31 18:15:38
+ * @Description: file content
+ * @FilePath: \PercentAdmind:\Project\me\few-code-view\src\App.vue
+-->
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
@@ -26,5 +34,14 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+</style>
+
+<style lang="scss">
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
 </style>
